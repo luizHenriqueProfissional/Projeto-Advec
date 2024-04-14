@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header id="cabecalho" class="navbar navbar-expand-lg sticky-top pt-4">
+        <div class="container">
+            <h1 class="protest-riot-regular">ADVEC OFICIAL</h1>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav id="menu" class="navbar-collapse collapse justify-content-end">
+                <ul class="navbar-nav nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#sobre">
+                            <i class="bi bi-house-door me-2"></i>
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#evangelismo">
+                            <i class="bi bi-calendar-check me-2"></i>
+                            Evangelismo
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#catalogo-de-biblias">
+                            <i class="bi bi-cart3 me-2"></i>
+                            Catalogo de biblias
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#fale-conosco">
+                            <i class="bi bi-chat-left-text me-2"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre">
+            <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="carousel-imagens">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./img-carousel/slide-01.jpg" alt="Avivamento">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./img-carousel/slide-03.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./img-carousel/slide-04.jpg" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#carousel-imagens" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#carousel-imagens" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button data-bs-slide-to="0" data-bs-target="#carousel-imagens" class="active" type="button"></button>
+                    <button data-bs-slide-to="1" data-bs-target="#carousel-imagens" type="button"></button>
+                    <button data-bs-slide-to="2" data-bs-target="#carousel-imagens" type="button"></button>
+                </div>
+            </div>
+            <div id="ex-sobre" class="container pt-5 pb-5 ">
+                <div class="row">
+                    <div class="col-md-7">
+                        <img src="./Sobre-img/IMG_6508-1024x683.jpg" class="d-block w-100 rounded" id="img-sobre" alt="">
+                    </div>
+                    <div class="col-md-5">
+                        <h2 class="select-protest fs-1 mt-4 mb-3">Sobre</h2>
+                        <p class="select-roboto fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro aperiam impedit ut, magnam saepe rem maiores cupiditate nulla facere et voluptates eius beatae repellendus laboriosam omnis ducimus veritatis necessitatibus soluta.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="verciculo">
+            <div class="container pt-5 pb-5 text-center">
+                <h2 class="pb-5 fw-bold fs-1 select-protest">Verciculo do mês</h2>
+                <div class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <h3>Então a virgem se alegrará na dança, como também os jovens e os velhos juntamente; e tornarei o seu pranto em alegria, e os consolarei, e lhes darei alegria em lugar de tristeza.</h3>
+                            <p class="select-roboto fw-bold text-end pt-4 fs-4">Jeremias 31</p>
+                        </div>
+                        <div class="carousel-item">
+                            <h3 class="select-roboto">Porque a nossa leve e momentânea tribulação produz para nós um peso eterno de glória mui excelente;</h3>
+                            <p class="select-roboto fw-bold text-end pt-4 fs-4">2 Coríntios 4:17</p>
+                        </div>
+                        <div class="carousel-item">
+                            <h3 class="select-roboto">Então eles, vendo a ousadia de Pedro e João, e informados de que eram homens sem letras e indoutos, maravilharam-se e reconheceram que eles haviam estado com Jesus.</h3>
+                            <p class="select-roboto fw-bold text-end pt-4 fs-4">Atos 4:13</p>
+                        </div>
+                        <div class="carousel-item">
+                            <h3 class="select-roboto">Porém, desde o princípio da criação, Deus os fez macho e fêmea. Por isso, deixará o homem a seu pai e a sua mãe e unir-se-á a sua mulher. E serão os dois uma só carne e, assim, já não serão dois, mas uma só carne. Portanto, o que Deus ajuntou, não o separe o homem.</h3>
+                            <p class="select-roboto fw-bold text-end pt-4 fs-4">Marcos 10:6-9</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="evangelismo">
+            <div class="container">
+                <h2 class="text-center pt-5 pb-5 select-protest fs-1">
+                    <i class="bi bi-calendar-check me-2"></i>
+                    Evangelismo
+                </h2>
+                <div class="row">
+                    <div class="col-sm-4 ">
+                        <img src="./evangelismo-img/evangelismo-na-praça.webp" class="d-block rounded" alt="">
+                        <h3 class="select-roboto text-center pt-4 select-roboto fw-bold fs-2">
+                            <i class="bi bi-tree-fill"></i>
+                            Praças
+                        </h3>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="./evangelismo-img/evangelismo-no-hospital.jpg" class="d-block w-100 rounded" alt="">
+                        <h3 class="select-roboto text-center pt-4 select-roboto fw-bold fs-2">
+                            <i class="bi bi-building-add"></i>
+                            Hospitais
+                        </h3>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="./evangelismo-img/evangelismo-no-presidio.jpeg" class="d-block w-100 rounded" alt="">
+                        <h3 class="select-roboto text-center pt-4 select-roboto fw-bold fs-2 mb-5">
+                            <i class="bi bi-bricks"></i>
+                            Presidios
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="catalogo-de-biblias">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center pt-5 pb-5 fs-1 select-protest">
+                        <i class="bi bi-cart3 me-2"></i>
+                        Catalogo
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column pb-3">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#biblias" class="fs-5 nav-link active">Bíblias</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#biblias-infantis" class="fs-5 nav-link">Bíblias infantis</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#revista-cristã" class="fs-5 nav-link">Revista cristã</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content pb-5">
+                            <div class="tab-pane mb-5 active" id="biblias">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 " src="./catalogo/biblia-01.png" alt="">
+                                        <h3 class="select-roboto fs-4 text-start">BÍBLIA DA MULHER SÁBIA COM HARPA - MOD 01 TULIPA PINK</h3>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 " src="./catalogo/biblia-02.png" alt="">
+                                        <h3 class="select-roboto fs-4 text-start">Bíblia Anote Nvi Espiral - Céu Azul | Editora Geográfica</h3>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 " src="./catalogo/biblia-03.png" alt="">
+                                        <h3 class="select-roboto fs-4 text-start">Bíblia Do Pregador Almeida Revista e Corrigida RC Masculina</h3>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 " src="./catalogo/biblia-04.png" alt="">
+                                        <h3 class="select-roboto fs-4 text-start">Bíblia Anote Nvi Espiral - Rosas - Com Espaço Para Anotações</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane mb-5" id="biblias-infantis">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./catalogo/biblia-infantil-02.png" alt="">
+                                        <h3 class="select-roboto text-start fs-4">Bíblia Infantil Pequenos Discípulos Harpa Meninas - CPP</h3>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./catalogo/biblia-infantil-01.png" alt="">
+                                        <h3 class="select-roboto text-start fs-4">Bíblia Infantil Ilustrada</h3>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./catalogo/biblia-infantil-03.png" alt="">
+                                        <h3 class="select-roboto text-start fs-4">Bíblia Infantil Ilustrada Com 365 Histórias</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane mb-5" id="revista-cristã">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./catalogo/revista-01.png" alt="">
+                                        <h3 class="select-roboto text-start fs-4">Revelação Messiânica - Cultura Cristã</h3>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./catalogo/revista-02.png" alt="">
+                                        <h3 class="select-roboto text-start fs-4">Explicação Clara Da Perfeição Cristã John Wesley</h3>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./catalogo/revista-03.png" alt="">
+                                        <h3 class="select-roboto text-start fs-4">Idolatria do coração - FILIPE FONTES - CULTURA CRISTÃ</h3>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./catalogo/revista-04.png" alt="">
+                                        <h3 class="select-roboto text-start fs-4">O Ser de Deus e suas Obras - CULTURA CRISTÃ</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5 me-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="pt-5 pb-5 select-protest">Fale conosco</h2>
+                    <div class="row">
+                        <div class="col-md-7">
+                            <form>
+                                <div>
+                                    <label class="form-label" for="nome">Nome</label>
+                                    <input class="form-control" type="text" id="nome">
+                                </div>
+                                <div>
+                                    <label class="form-label" for="email">E-mail</label>
+                                    <input class="form-control" type="email" id="email">
+                                </div>
+                                <div>
+                                    <label class="form-label" for="telefone">Telefone</label>
+                                    <input class="form-control" type="tel" id="telefone">
+                                </div>
+                                <div>
+                                    <label for="" class="form-label">Sua mensagem</label>
+                                    <textarea class="form-control"></textarea>
+                                </div>
+                                <button type="submit" class="mt-3 rounded btn">Enviar</button>
+                            </form>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="row ms-5">
+                                <h3 id="redes-socias" class="fs-2 select-protest">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                    Redes sociais
+                                </h3>
+                                <ul class="social-links">
+                                    <li class="social-links">
+                                        <a class="fs-4 " href="#">
+                                            <i class="bi bi-instagram select-protest mb-5"></i>
+                                        </a>
+                                    </li>
+                                    <li class="social-links">
+                                        <a class="fs-4  ms-1 me-1" href="#">
+                                            <i class="bi bi-facebook select-protest"></i>
+                                        </a>
+                                    </li>
+                                    <li class="social-links">
+                                        <a class="fs-4" href="#">
+                                            <i class="bi bi-whatsapp select-protest"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row ms-5">
+                                <h3 class="fs-2 select-protest">
+                                    <i class="bi bi-cursor" ></i>
+                                    Endereço
+                                </h3>
+                                <p class="select-roboto fw-bold fs-5">Rua montevideu n 900, Bairro Penha - Rio de janeiro</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>

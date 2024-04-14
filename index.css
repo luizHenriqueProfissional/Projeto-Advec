@@ -1,0 +1,88 @@
+.container h1{
+    color: rgba(190, 53, 53, 0.829);
+    font-family: "Protest Riot", sans-serif;
+}
+#cabecalho button {
+    background-color: #fff;
+    margin-bottom: 8px;
+}
+#cabecalho h1 {
+    align-items: center;
+}
+#menu {
+    text-transform: uppercase;
+}
+#menu a {
+    color:blanchedalmond;
+    font-family: "Roboto", sans-serif;
+}
+header {
+    background-color:rgb(1, 22, 36);
+}
+section img {
+    height: 700px;
+    width: 100%;
+}
+.container #img-sobre {
+    height: 500px;
+}
+
+.select-roboto{
+    font-family: "Roboto", sans-serif;
+}
+.select-protest{
+    font-family: "Protest Riot", sans-serif;
+    color: rgba(190, 53, 53, 0.829);
+}
+#evangelismo img {
+    height: 400px;
+}
+#catalogo-de-biblias,#verciculo  {
+    background-color: rgba(0, 153, 255, 0.185);
+}
+#catalogo-de-biblias img {
+    height: 300px;
+}
+#biblias .d-block img {
+    border-radius: 10px;
+}
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+.social-links a {
+    text-decoration: none;
+}
+form .btn {
+    background-color: rgba(190, 53, 53, 0.829);
+    color: #fff;
+}
+@media(max-width:767px){
+    #sobre img{
+        height: 300px;
+    }
+    #ex-sobre #img-sobre{
+        height: 300px;
+    }
+    #evangelismo img {
+        height: 150px;
+    }
+    #catalogo-de-biblias h3{
+        padding: 15px 0;
+    }
+    #redes-socias{
+        margin-top: 30px;
+        justify-content: start;
+    }
+}
+@media(max-width:995px){
+    #evangelismo img {
+        height: 250px;
+    }
+    #catalogo-de-biblias img {
+        height: 200px;
+    }
+    #ex-sobre #img-sobre{
+        height: 400px;
+    }
+}
